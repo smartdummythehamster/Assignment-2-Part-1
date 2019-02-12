@@ -1,0 +1,44 @@
+def followers(list, num):
+  """
+  Return a number and a list of all followers, who follow an account. for example new, old and gained. 
+  """
+  pass 
+
+def gained_followers(list, num):
+  """
+  Return an updated list of followers with a number and a list of new followers; must be mutual.
+  """
+  pass 
+
+def accepted_gained_followers(list):
+  """
+  Return an updated list of followers and check for new gained followers who accepted and followed back. 
+  """
+  pass 
+
+def lost_followers(list, num):
+  """
+  Return an updated list of followers with a number and a list of followers who unfollowed. 
+  """
+  pass 
+
+def not_following_me_back(list, num):
+  """
+  Return an updated list of all followers, checking if anyone who was requested, accepted the request and did not follow back. 
+  """
+  pass
+
+def special_followers(list):
+  """
+  Return a new list of followers that the user marked as special. This list should be totally separate from every other list. You can only add or remove accounts from the list as you wish; it should not update (automatically).
+  """
+  pass  
+
+def update_followers(list):
+  """
+  Return an updated list including all new, old, gained, lost and not following me back followers. 
+  """
+  pass
+
+#i would have to make sure that all updates are happening at the same time (not sure how to achieve that yet).
+#also not sure which function in python will help me to mark any characters as special, in order to place them in a different list. 
